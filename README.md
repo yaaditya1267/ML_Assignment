@@ -1,7 +1,10 @@
 # ML
-Machine Learning Assignment\n
+Machine Learning Assignment
 
 Team Members: -
+
 Anmol Kapoor
+
 Harsh Choudhary
+
 Aman N
