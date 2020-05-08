@@ -45,8 +45,8 @@ x = df.iloc[0:100, [0, 2]].values
 print(x)
 plt.scatter(x[:50, 0], x[:50, 1], color='blue', marker='o', label='Setosa')  # 50 values in rows
 plt.scatter(x[50:100, 0], x[50:100, 1], color='red', marker='x', label='Versicolor')
-plt.xlabel('sepal')
-plt.ylabel('petal')
+plt.xlabel('sepal-length')
+plt.ylabel('petal-length')
 plt.legend(loc='upper left')
 plt.show()
 
