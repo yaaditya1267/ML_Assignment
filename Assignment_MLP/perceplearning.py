@@ -50,7 +50,7 @@ plt.ylabel('petal-length')
 plt.legend(loc='upper left')
 plt.show()
 
-ppn = Perceptron(eta=0.1, n_iter=5)
+ppn = Perceptron(0.1,5)
 ppn.fit(x, y)
 print(ppn.w_)
 
