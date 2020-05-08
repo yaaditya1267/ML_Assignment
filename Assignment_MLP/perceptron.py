@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 #from sklearn.linear_model import Perceptron
 
 class Perceptron(object):
-   def __init__(self, rate = 0.01, niter = 10):
+   def __init__(self, rate + 0.01, niter = 10):
       self.rate = rate
       self.niter = niter
 
